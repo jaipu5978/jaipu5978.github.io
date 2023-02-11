@@ -10,6 +10,7 @@
             display: flex; 
             justify-content: space-between;
             align-items: center;
+            margin: 20px;
            
         } 
     
@@ -27,22 +28,73 @@
             display: flex;
             justify-content: space-between;
             background-color: grey;
-            margin: 30px;
-            border-radius: 30px;
+            margin: 20px;
+            border-radius: 15px;
+            height: 300px;
             
 
         }
 
         #section-home img {
             height: 300px;
-            border-top-right-radius: 30px;
-            border-bottom-right-radius: 30px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
             
         }
 
         #section-home div:first-child {
             padding: 20px;
         }
+
+        .two-projects {
+            display: flex;
+        }
+
+        .two-projects img {
+            height: 300px;
+            
+        }
+        .two-projects > div {
+            width: 50%;
+            border: 2px solid black;
+            padding:  20px;
+            border-radius: 20px;
+        }
+
+        .two-projects > div:first-child {
+            background-color: #ecebfd;
+            margin-right: 10px;
+        }
+        .two-projects > div:last-child {
+            background-color: #2d3542;;
+            margin-left: 10px;
+            color: white;
+        }
+
+        .third-projects {
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0px;
+            background-image: linear-gradient(to bottom right, aqua, yellow);
+            background-color: #000;
+            color: black;
+        }
+
+        .third-projects img {
+            height: 400px;
+            border-radius: 20px;
+        }
+
+        #section-contact{
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+            padding: 20px;
+            background-image: linear-gradient(to bottom right, grey , black);
+            color: white;
+        }
+
+
     </style>
 </head>
 <body>
@@ -76,6 +128,55 @@
             <img src="images/Screenshot 2021-02-19 170759.png"/>
         </div>
     </section>
+
+    <section id="section-projects">
+        <!-- first two projects -->
+        <div class="two-projects">
+           <div>
+            <h1>Paymento</h1>
+            <p>Personel Finance Mobile App</p>
+            <img src="images/paymento.png" alt="">
+           </div>
+           <div>
+            <h1>Taskit</h1>
+            <p>Personel Finance Mobile App</p>
+            <img src="images/taskit.png" alt="">
+           </div>
+           
+        </div>
+        <!-- third project -->
+        <div class="third-projects">
+            <h1>Piyuu</h1>
+            <p>
+                Freelancing Platform for individuals
+            </p>
+            <img src="images/piyuu.png" alt="">
+        </div>
+        
+    </section>
     
+<section id="section-contact">
+    <div>
+        <h1>Want to work together?</h1>
+        <p>Feel free to reach out for collaboration or  a friendly hello</p>
+        <a href="mailto:jaipu5978@gmail.com">jaipu5978@gmail.com</a>
+        
+
+    </div>
+
+    <div><h1>connect with me!</h1>
+        <a href="https://www.linkedin.com/in/jai-prakash-pandey-3b6113245/">
+            <img src="images/linkedin.png" alt="">
+        </a>
+        <a href="https://twitter.com/jaipu5978">
+            <img src="images/twitter.png" alt="">
+        </a>
+        <a href="https://www.instagram.com/jp4yu/">
+            <img src="images/icons8-instagram-50.png" alt="">
+        </a>
+    </div>
+
+</section>
+
 </body>
 </html>
